@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>店铺信息</title>
+    <!-- //信息处理 -->
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"><i class="icon icon-span"></i></div>
+        <ul class="nav-list">
+            <li class="sel"><a href="/kaweb/page/shop/profile"><i class="icon icon-shop"></i>我的店铺</a></li>
+            <li><a href="/kaweb/commodity"><i class="icon icon-goods"></i>商品中心</a></li>
+            <li><a href="/kaweb/page/shop/order/list"><i class="icon icon-center"></i>订单中心</a></li>
+            <li><a href="/kaweb/page/shop/order/bill"><i class="icon icon-bill"></i>账单中心</a></li>
+            <li><a href="/kaweb/page/shop/message/index"><i class="icon icon-message"></i><span class="type-badge" id="NODE_SHOW_MSG_STATUS">消息中心</span></a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <div class="header-notice" id="NODE_SHOW_NOTICE">欢迎来到外卖通</div>
+        <div class="user-info"><img src="http://imgsize.52shangou.com/img/n/02/10/1486706449341_9816.png">早上好，张三！</div>
+    </div>
+    <div class="main-content" id="root"></div>
+    <script>
+        window.WMT = {
+            //信息处理
+        }
+        window.FEC = window.WMT;
+    </script>
+    <script src="/dist/profile/index.js"></script>
+</body>
+</html>

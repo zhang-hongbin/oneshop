@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ],
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  },
+  "plugins": [
+    ["import", {
+      "libraryName": "antd",
+      "style": true
+    }],
+    ["transform-runtime", {
+      "helpers": true, // defaults to true
+      "polyfill": true, // defaults to true
+      "regenerator": true, // defaults to true
+      "moduleName": "babel-runtime" // defaults to "babel-runtime"
+    }],
+    "transform-decorators-legacy"
+  ]
+}

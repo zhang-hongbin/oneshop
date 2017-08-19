@@ -1,0 +1,57 @@
+.logistics-wrapper {
+    position: relative;
+    min-width: 700px;
+    max-width: 1680px;
+    height: 640px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+
+    .hd {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        z-index: 10;
+        background: rgb(255, 255, 255);
+        border-bottom: 1px solid #D3D3D3;
+
+        .item {
+            float: left;
+            margin-left: 20px;
+            height: 60px;
+
+            label {
+                line-height: 60px;
+                vertical-align: top;
+            }
+            > div {
+                display: inline-block;
+                margin-top: 15px;
+            }
+            input {
+                width: 60px;
+            }
+
+            &:first-of-type {
+                margin-left: 20px;
+                margin-right: 50px;
+                color: #333;
+                line-height: 60px;
+                &:before {
+                    position: relative;
+                    top: 4px;
+                    display: inline-block;
+                    content: '';
+                    background: url(//imgsize.52shangou.com/img/n/02/28/1488250581253_6703.png) no-repeat center;
+                    background-size: 12px 20px;
+                    width: 12px;
+                    height: 20px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

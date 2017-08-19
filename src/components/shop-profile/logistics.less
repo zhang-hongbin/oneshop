@@ -1,0 +1,56 @@
+.logistics {
+    h4 {
+        font-size: 14px;
+        color: #666;
+        position: relative;
+        line-height: 20px;
+        padding-bottom: 20px;
+
+        em {
+            font-style: normal;
+            font-weight: bold;
+            margin-right: 4px;
+            font-size: 14px;
+            vertical-align: baseline;
+        }
+    }
+
+    // 覆盖默认的tab样式
+    .ant-tabs-nav-container {
+        margin-bottom: 0 !important;
+    }
+
+    .ant-tabs-bar {
+        border: none !important;
+    }
+
+    .ant-tabs-nav-wrap {
+        margin-bottom: 0;
+    }
+
+    .ant-tabs-nav {
+        display: table;
+        width: 100%;
+        border-collapse: collapse;
+
+        .ant-tabs-tab {
+            display: table-cell;
+            text-align: center;
+            border: 1px solid #E6E6E6;
+            padding: 8px 20px;
+            font-size: 14px;
+        }
+
+        .ant-tabs-ink-bar {
+            top: 0;
+            bottom: 0;
+            background-color: transparent !important;
+            border: 1px solid #8ED8E5;
+            height: 100%;
+        }
+
+        .ant-tabs-tab-active {
+            background: #ECFAFC;
+        }
+    }
+}
