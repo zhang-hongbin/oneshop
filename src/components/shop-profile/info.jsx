@@ -4,7 +4,6 @@ import { Row, Col, Form, Modal, TimePicker, Switch, Select, Button, Icon, Input 
 import Ajax from '../../common/ajax';
 import QueryString from 'query-string';
 import Moment from 'moment';
-import UrlBuilder from '@51xianqu/url-builder';
 import CanIInvoke from '../../common/auth';
 import Tips from './tips';
 import SaleStatus from './salestatus';
